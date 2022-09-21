@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+}
+.main
+{
+    background-color: #ffe5d9;
+    padding: 20px;
+    max-width: 1000px;
+    
+}
+.blog
+{
+    margin-bottom: 20px;
+    padding: 30px;
+    border: 3px solid #000;
+    background-color: #d8e2dc;
+}
+.date
+{
+    color: rgba(10, 30, 143, 0.3);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.para{
+  border-left: 2px solid rgb(18, 158, 214);
+  padding-left: 5px;
+}
+h3
+{
+    font-size: 1.5rem;
+}
+hr
+{
+    border: 0;
+    height: 5px;
+    border-top: 1px solid rgb(68, 205, 240);
+}
+p{
+    color: #000;
+    font-weight: 500;
+}
